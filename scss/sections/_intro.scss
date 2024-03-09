@@ -1,0 +1,275 @@
+#intro {
+  padding-top: 154px;
+
+  .wrapper {
+    display: flex;
+    gap: 100px;
+    align-items: start;
+
+    &__left {
+      max-width: 563px;
+    
+
+      h1 {
+        font-size: 54px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 48px;
+      }
+
+      button {
+        @extend %btnPrimary;
+        padding: 18px 36px;
+      }
+    }
+
+    &__right {
+      flex-grow: 2;
+
+      position: relative;
+      background-image: url("../../assets/images/cicle.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      img {
+        position: absolute;
+
+        &:nth-child(1) {
+          top: -40px;
+          left: 44px;
+
+          animation-name: intro-images;
+          animation-duration: 1.4s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+
+        &:nth-child(2) {
+          bottom: -100px;
+          left: -76px;
+
+          animation-name: intro-images;
+          animation-duration: 0.9s;
+          animation-delay: 0.7s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+
+        &:nth-child(3) {
+          top: -55px;
+          right: 40px;
+
+          animation-name: intro-images;
+          animation-duration: 1.4s;
+          animation-delay: 0.2s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+
+        &:nth-child(4) {
+          bottom: -20px;
+          right: 40px;
+
+          animation-name: intro-images;
+          animation-duration: 1.4s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+      }
+    }
+  }
+}
+
+// =============================== Intro second section
+
+#intro_second {
+  padding-top: 154px;
+
+  .wrapper {
+    display: flex;
+    gap: 100px;
+    align-items: start;
+
+    &__left {
+      max-width: 563px;
+    
+
+      h1 {
+        font-size: 54px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 48px;
+      }
+
+      button {
+        @extend %btnPrimary;
+        padding: 18px 36px;
+      }
+    }
+
+    &__right {
+      flex-grow: 2;
+
+      position: relative;
+      background-image: url("../../assets/images/cicle.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      img {
+        position: absolute;
+
+        &:nth-child(1) {
+          top: 0;
+          left: 0;
+
+          animation-name: intro-second-top-left;
+          animation-duration: 1.4s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+
+        &:nth-child(2) {
+          right: 10%;
+          top: 0%;
+
+          animation-name: intro-second-top-right;
+          animation-duration: 1.4s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+
+        &:nth-child(3) {
+          left: 0%;
+          top: 25%;
+
+          animation-name: intro-second-bottom-left;
+          animation-duration: 1.4s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+
+        &:nth-child(4) {
+          right: -15%;
+          top: 35%;
+
+          animation-name: intro-second-bottom-right;
+          animation-duration: 1.4s;
+          animation-timing-function: ease-in-out;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+        }
+      }
+    }
+  }
+}
+
+// =============================== Intro third section
+
+#intro_third {
+  padding-top: 154px;
+
+  .wrapper {
+    display: flex;
+    gap: 100px;
+    align-items: start;
+
+    &__left {
+      max-width: 563px;
+    
+
+      h1 {
+        font-size: 54px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 48px;
+      }
+
+      button {
+        @extend %btnPrimary;
+        padding: 18px 36px;
+      }
+    }
+
+    &__right {
+      flex-grow: 2;
+
+      position: relative;
+      background-image: url("../../assets/images/cicle.svg");
+      width: 500px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      img {
+        position: absolute;
+
+        &:nth-child(1) {
+          top: 0;
+          left: 5%;
+
+          animation-name: intro-third-top-left;
+          animation-duration: 0.9s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: ease-in-out;
+        }
+
+        &:nth-child(2) {
+          right: 0;
+          top: 38%;
+
+          animation-name: intro-third-top-right;
+          animation-duration: 0.9s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: ease-in-out;
+        }
+
+        &:nth-child(3) {
+          bottom: 0;
+          left: -2%;
+
+          animation-name: intro-third-bottom-left;
+          animation-duration: 0.9s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: ease-in-out;
+        }
+
+        &:nth-child(4) {
+          top: 20%;
+          right: 0;
+
+          animation-name: intro-third-bottom-right;
+          animation-duration: 0.9s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-timing-function: ease-in-out;
+        }
+      }
+    }
+  }
+}

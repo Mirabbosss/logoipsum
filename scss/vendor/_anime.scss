@@ -1,0 +1,144 @@
+// ====================== Intro section
+
+@keyframes intro-images {
+    from {
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
+
+// ====================== Middle section
+
+@keyframes middle-left {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes middle-right {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0.9) translateY(-30px);
+    }
+}
+
+// =================== Intro second section 
+
+@keyframes intro-second-top-left {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: -10%;
+    }
+}
+
+@keyframes intro-second-top-right {
+    from {
+        top: 0%;
+    }
+
+    to {
+        top: -15%;
+    }
+}
+
+@keyframes intro-second-bottom-left {
+    from {
+        top: 25%;
+    }
+
+    to {
+        top: 30%;
+    }
+}
+
+@keyframes intro-second-bottom-right {
+    0% {
+        right: -15%;
+        top: 35%;
+    }
+
+    100% {
+        right: -5%;
+        top: 43%;
+    }
+}
+
+// ====================== Middle section
+
+@keyframes middle-left {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes middle-right {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(0.9) translateY(-30px);
+    }
+}
+
+// =================== Intro third section 
+
+@keyframes intro-third-top-left {
+    from {
+        left: 5%;
+    }
+
+    to {
+        left: 10%;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes intro-third-top-right {
+    from {
+        right: -5%;
+    }
+
+    to {
+        right: 5%;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes intro-third-bottom-left {
+    from {
+        left: -4%;
+    }
+
+    to {
+        left: 5%;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes intro-third-bottom-right {
+    from {
+        top: 20%;
+    }
+
+    to {
+        top: 25%;
+    }
+}

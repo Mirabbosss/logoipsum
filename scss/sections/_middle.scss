@@ -1,0 +1,86 @@
+#middle {
+    width: 100%;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        padding: 50px 0;
+
+        &__left {
+            position: relative;
+
+            &--big {
+                width: 263px;
+                height: 263px;
+                border-radius: 50%;
+                background-color: $bg-primary-light;
+                position: absolute;
+                top: -120px;
+                left: 0;
+                display: grid;
+                place-content: center;
+
+                img {
+                    animation-name: middle-left;
+                    animation-duration: 1.5s;
+                    animation-direction: alternate;
+                    animation-timing-function: ease-out;
+                    animation-iteration-count: infinite;
+                }
+            }
+
+            &--little {
+                width: 51px;
+                height: 51px;
+                border-radius: 50%;
+                background-color: $bg-primary-light;
+                position: absolute;
+                display: grid;
+                place-content: center;
+                right: -320px;
+                top: 150px;
+            }
+        }
+
+        &__right {
+            margin-left: 330px;
+            width: 1000px;
+
+            &--top {
+                margin-left: 20%;
+                display: grid;
+                place-content: center;
+                position: relative;
+
+                &-cicle {
+                    position: absolute;
+                    z-index: -1;
+                    top: 50px;
+                    left: 375px;
+                    width: 51px;
+                    height: 51px;
+                    border-radius: 50%;
+                    background-color: $bg-primary-light;
+                }
+
+                img {
+                    animation-name: middle-right;
+                    animation-duration: 1.5s;
+                    animation-timing-function: ease-in-out;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate;
+                }
+            }
+
+            h1 {
+                width: 1000px;
+                height: 168px;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 84px;
+                text-align: right;
+                color: #ffffff;
+            }
+        }
+    }
+}
